@@ -67,14 +67,46 @@ header {
     width: 78%;
     position: absolute;
     font-size: 15px;
-    background: black;
+    background: rgb(45, 80, 196);
     box-shadow: 1px 7px 12px #000; 
     /*Necesito que llegue hasta el final siempre*/
     height: 85%;
     color: #fff;
+    
 }
-.container {
-    background-color: beige;
-    width: auto;
+
+#proyecto1 {
+    background-color: #f2f2f2;
     color: #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 12px #000; 
+}
+
+#fotoProyecto1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#proyecto2 {
+    background-color: #f2f2f2;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 12px #000; 
+}
+#fotoProyecto2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
