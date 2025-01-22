@@ -71,6 +71,10 @@ proce{
 
 #foto {
     border-radius: 20%;
+    /*centrar la imagen en el centro*/
+    display: flex;
+    justify-content: center;
+
 }
 
 #contacto h3 {
