@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     padding-top: 70px; 
 }
+
 #Nombre {
     font-size: 42px;
     margin-top: 20px;
@@ -41,16 +42,33 @@ header {
     border: none;
 }
 
+estado{
+    font-weight: bold;
+    color: green;
+}
+
+abando {
+    /*que este tachado con mas tamaño*/
+    text-decoration: line-through black;
+    font-weight: bold;
+    color: red;
+}
+
+proce{
+    font-weight: bold;
+    color: blue; 
+}
+
 #contacto {
     padding-top: 70px;
-    width: auto;
+    width: 18%;
     position: absolute;
     font-size: 15px;
     background: linear-gradient(90deg, #ebeef0 , #ffffff);
     box-shadow: 1px 7px 12px #000; 
-    /*Necesito que llegue hasta el final siempre*/
-    height: 100%;
+    height: auto;
 }
+
 #foto {
     border-radius: 20%;
 }
@@ -70,12 +88,20 @@ header {
     background: rgb(45, 80, 196);
     box-shadow: 1px 7px 12px #000; 
     /*Necesito que llegue hasta el final siempre*/
-    height: 85%;
+    height: auto%;
     color: #fff;
     
 }
 
+#misProyectos {  
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
 #proyecto1 {
+    align-items: center;
     background-color: #f2f2f2;
     color: #000;
     margin: 10px;
@@ -83,30 +109,96 @@ header {
     box-shadow: 1px 7px 12px #000; 
 }
 
-#fotoProyecto1 {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+#proyecto1 h3 {
+    text-align: center;
 }
+
 #proyecto2 {
+    align-items: center;
     background-color: #f2f2f2;
     color: #000;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 1px 7px 12px #000; 
 }
-#fotoProyecto2 {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+
+#proyecto2 h3 {
+    text-align: center;
+}
+
+#proyecto3 {
+    align-items: center;
     background-color: #f2f2f2;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 12px #000; 
+}
+
+#proyecto3 h3 {
+    text-align: center;
+}
+
+#proyecto4 {
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 12px #000; 
+}
+
+#proyecto4 h3 {
+    text-align: center;
+}
+
+#proyecto5 {
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 12px #000; 
+}
+
+#proyecto5 h3 {
+    text-align: center;
+}
+
+#proyecto6 {
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 12px #000; 
+}
+#proyecto6 h3 {
+    text-align: center;
+}
+
+#proyecto7 {
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 12px #000; 
+}
+
+#proyecto7 h3 {
+    text-align: center;
+}
+
+#proyecto8 {
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 12px #000; 
+}
+
+#proyecto8 h3 {
+    text-align: center;
 }
